@@ -10,7 +10,6 @@ double area(float rad){
     area = pi * (rad * rad);
 
     return area;
-
 }
 
 int main()
