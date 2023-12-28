@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "c:/Users/pc/Desktop/Decode C++ With DSA/One Dimensional Arrays (Week - 5)/Arrays - 1 (Lecture - 1)",
+      "program": "c:/Users/pc/Desktop/Decode C++ With DSA/One Dimensional Arrays (Week - 5)/Arrays - 1 (Lecture - 1)/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

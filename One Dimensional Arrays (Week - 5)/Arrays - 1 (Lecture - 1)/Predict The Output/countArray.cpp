@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// * Linear Search :- (Imp)
-
 int main()
 {
 
@@ -13,7 +11,7 @@ int main()
 
     int arr[n];
 
-    // * Elements of Array 
+    // * Elements of Array
     for (int i = 0; i <= n - 1; i++)
     {
         cin >> arr[i];
@@ -24,21 +22,16 @@ int main()
     cout << "Enter the element you want to search : ";
     cin >> x;
 
-    // * Checkmark
-    bool flag = false; 
+    int count = 0;
     for (int i = 0; i <= n - 1; i++)
     {
-        if (arr[i] == x)
+        if (arr[i] > x)
         {
-            flag = true;
+            count++;
         }
     }
 
-    // * Output
-    if (flag == true)
-        cout << x << " is present in Array" << endl;
-    else
-        cout << x << " is not present in Array" << endl;
+    cout << "Count is : " << count;
 
     return 0;
 }

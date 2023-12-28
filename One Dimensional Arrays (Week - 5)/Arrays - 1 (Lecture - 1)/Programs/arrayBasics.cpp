@@ -25,8 +25,8 @@ int main()
 
     // * Method - 2 :- Good Practice
 
-    int arr[7] = {6, 5, 4, 3, 2, 1, 0};
-    cout << arr[0];
+    int arr[7] = {6, 5, 7, 3, 2, 1, 0};
+    cout << arr[2];
 
     return 0;
 }
