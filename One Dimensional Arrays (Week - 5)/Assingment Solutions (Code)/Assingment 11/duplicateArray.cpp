@@ -31,11 +31,11 @@ int main()
 
     if (flag == true)
     {
-        cout << "Yes, duplicates exists";
+        cout << "Yes, duplicate exists";
     }
     else
     {
-        cout << "No, Duplicates don't exists" << endl;
+        cout << "No, duplicate don't exists" << endl;
     }
 
     return 0;
